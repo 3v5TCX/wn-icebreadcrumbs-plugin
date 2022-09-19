@@ -1,9 +1,9 @@
 {
-  "name": "icecollection/wn-icebreadcrubms-plugin",
+  "name": "icecollection/wn-icebreadcrumbs-plugin",
   "type": "winter-plugin",
   "description": "Location plugin for Winter CMS",
   "homepage": "https://github.com/3v5TCX/wn-icebreadcrumbs-plugin.git",
-  "keywords": ["wintercms", "cms", "location", "iceclearcachewidget"],
+  "keywords": ["wintercms", "cms", "icebreadcrumbs"],
   "license": "MIT",
   "authors": [
     {
@@ -20,6 +20,6 @@
     "composer/installers": "~1.0"
   },
   "extra": {
-    "installer-name": "breadcrubms"
+    "installer-name": "breadcrumbs"
   }
 }
