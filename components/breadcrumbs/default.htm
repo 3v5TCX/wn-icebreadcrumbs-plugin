@@ -1,0 +1,15 @@
+{% if currentCrumb.show_crumb %}
+<div class="breadcrumb">
+    <a class="breadcrumb__home" href="{{ 'index'|page }}"><i class="icons icon-home"></i></a>
+    {% for crumb in breadcrumbs %}
+    <span class="breadcrumb__delimiter">&nbsp/&nbsp</span>
+    {% if not loop.last and not crumb.crumb_disabled %}
+    <a class="breadcrumb__item" href="{{crumb.baseFileName | page}}">
+        {{crumb.title}}
+    </a>
+    {% else %}
+        {{crumb.title}}
+    {% endif %}
+    {% endfor %}
+</div>
+{% endif %}

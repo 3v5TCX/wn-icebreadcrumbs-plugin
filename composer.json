@@ -1,0 +1,25 @@
+{
+  "name": "icecollection/wn-icebreadcrubms-plugin",
+  "type": "winter-plugin",
+  "description": "Location plugin for Winter CMS",
+  "homepage": "https://github.com/3v5TCX/wn-icebreadcrumbs-plugin.git",
+  "keywords": ["wintercms", "cms", "location", "iceclearcachewidget"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Belonogov Ilya Y.",
+      "homepage": "https://belonogov.com",
+      "role": "Original Author"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/3v5TCX/wn-icebreadcrumbs-plugin.git"
+  },
+  "require": {
+    "php": ">=7.2",
+    "composer/installers": "~1.0"
+  },
+  "extra": {
+    "installer-name": "breadcrubms"
+  }
+}
