@@ -1,4 +1,4 @@
-<?php namespace icecollection\Breadcrumbs\Components;
+<?php namespace Icecollection\Breadcrumbs\Components;
 
 use Cms\Classes\ComponentBase;
 use Cms\Classes\Page;
@@ -91,7 +91,7 @@ class Breadcrumbs extends ComponentBase
      */
     private function buildCrumbTrail($page)
     {
-        //Page Doesnt exist in our crumb list
+        //Page Doesn't exist in our crumb list
         if (!($page = $this->pagesList[$page])) {
             return;
         }

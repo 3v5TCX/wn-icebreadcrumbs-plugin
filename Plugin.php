@@ -1,4 +1,4 @@
-<?php namespace icecollection\Breadcrumbs;
+<?php namespace Icecollection\Breadcrumbs;
 
 use System\Classes\PluginBase;
 use Cms\Classes\Page;
@@ -22,7 +22,6 @@ class Plugin extends PluginBase
             'description' => 'icecollection.breadcrumbs::lang.plugin.description',
             'author'      => 'icecollection.breadcrumbs::lang.plugin.author',
             'icon'        => 'icon-ellipsis-h',
-            'homepage'    => 'http://www.iicicecollection.ru/'
         ];
     }
 
@@ -73,7 +72,7 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            'icecollection\Breadcrumbs\Components\Breadcrumbs' => 'breadcrumbs'
+            'Icecollection\Breadcrumbs\Components\Breadcrumbs' => 'breadcrumbs'
         ];
     }
 
