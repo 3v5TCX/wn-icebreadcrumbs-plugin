@@ -1,9 +1,9 @@
-Icecollection Breadcrumb Plugin
+Icecollection Breadcrumbs Plugin
 =====================
-Ice Breadcrumb
+Ice Breadcrumbs
 
 Install
-composer require icecollection/wn-icebreadcrumb-plugin
+composer require icecollection/wn-icebreadcrumbs-plugin
 
 Breadcrumbs allows you to build out the your pages structure and render breadcrumbs.
 Its easy to set up your pages to take advantage of the new breadcrumbs, once the
